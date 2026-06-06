@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Click the Circle - Small Site Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Click the Circle</h1>
+    <p class="description">Click as many circles as you can before the timer runs out.</p>
+
+    <div class="hud">
+      <div>Score: <span id="score">0</span></div>
+      <div>Time: <span id="time">30</span>s</div>
+      <div>High Score: <span id="highscore">0</span></div>
+    </div>
+
+    <div id="play-area" class="play-area" aria-label="Game play area">
+      <!-- circles appear here -->
+    </div>
+
+    <div class="controls">
+      <button id="startBtn">Start</button>
+      <button id="resetBtn">Reset High Score</button>
+    </div>
+
+    <footer>
+      <small>Static site game — open <code>index.html</code> in a browser.</small>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
