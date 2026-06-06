@@ -1,0 +1,11 @@
+# Ignore typical system files
+.DS_Store
+Thumbs.db
+node_modules/
+
+# Local dev
+.vscode/
+.idea/
+
+# Build outputs
+dist/
